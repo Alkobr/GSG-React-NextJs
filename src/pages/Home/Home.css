@@ -1,0 +1,99 @@
+.home {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    background-color: #f7f9fc;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #d1d9e6;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #4c8eaf;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3c717f;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+button:last-child {
+    background-color: #f39c12;
+}
+
+button:last-child:hover {
+    background-color: #e67e22;
+}
+
+button:last-child:active {
+    background-color: #d35400;
+}
+
+button:nth-last-child(3) {
+    background-color: #e67e22;
+}
+
+button:nth-last-child(3):hover {
+    background-color: #e67e22;
+}
+
+button:nth-last-child(3):active {
+    background-color: #e67e22;
+}
+
+button:nth-last-child(2):hover {
+    background-color: #e67e22;
+}
+
+button:nth-last-child(2) {
+    background-color: #e67e22;
+}
+
+button:nth-last-child(2):active {
+    background-color: #e67e22;
+}
